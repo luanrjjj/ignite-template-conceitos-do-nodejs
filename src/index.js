@@ -86,7 +86,7 @@ app.post('/todos', checksExistsUserAccount, (request, response) => {
   
   
   if (userTodo) {
-    userTodo?.todos.push(todo)  
+    userTodo.todos.push(todo)  
   }
 
   
